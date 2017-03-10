@@ -1,0 +1,36 @@
+/*  TEAM    */
+    Donald Chen
+/*    THANKS  */
+    Life itself
+    My Mon FeiFei
+@media only screen and (max-width: 50rem){
+
+}
+@media only screen and (max-width: 30rem){
+
+}
+@media only screen and (max-width: 50rem){
+	.footer-content .brand{
+		display: none;
+	}
+	.footer .font-content ul{
+		width:20%;
+	}
+	.footer-content ul li{
+		font-size:1.2rem;
+		line-height:2rem;
+	}
+	.footer-content ul li.title{
+		font-size:1.4rem;
+		line-height:2.5rem;
+	}
+}
+@media only screen and (max-width: 30rem){
+	.footer-content{
+		width:98%;
+	}
+	.footer-content ul li.title{
+		font-size: 1.2rem;
+		line-height:2rem;
+	}
+}

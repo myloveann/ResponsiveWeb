@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" manifest="index.appache">
+    <title>Test</title>
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+</body>
+<script>
+	window.onload=function () {
+		var canvas=document.getElementById("canvas");
+		var pen=canvas.getContext("2d");
+		canvas.width=500+'px';
+		canvas.height=500+'px';
+
+		pen.fillStyle='#FF0000';
+		pen.rect(20,20,50,50);
+	}
+</script>
+</html>
